@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://demo.campbells.im", maxAge = 3600)
 @RestController
 @RequestMapping("/api/v1/data")
 @Api("Save Data API")
